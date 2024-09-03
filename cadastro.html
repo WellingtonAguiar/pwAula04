@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h2>Formulário para Cadastro de Aluno</h2>
+    <form action="#">
+        <label>Nome: </label>
+        <input type="text" name="Nome" id="iptNome"><br>
+        <label>Data de Nascimento: </label>
+        <input type="date" name="Nasto" id="dtNasto"><br>
+        <label>Email: </label>
+        <input type="text" name="Email" id="iptEmail"><br>
+        <label>Cpf: </label>
+        <input type="number" name="Cpf" id="iptCpf"><br>
+        <label>Gênero: </label><br>
+        <input type="radio" name="genero" id="rbMasc">Masculino<br>
+        <input type="radio" name="genero" id="rbFem">Feminino<br>
+        <input type="radio" name="genero" id="rbOut">Outro<br>
+        
+        <label>Linguagens Favoritas</label>
+        <select name="Linguagem" id="selLing">
+            <option value="Java">Java</option>
+            <option value="PHP">Python</option>
+            <option value="C#">C#</option>
+            <option value="JavaScript">JavaScript</option>
+        </select><br>
+        <label>Aceito e concordo com todos os Termos e Condições</label>
+        <input type="checkbox" id="ckbTermo" required>
+        <br>
+        <label>Obervação</label><br>
+        <textarea name="txtObs" id="txtObs" cols="30" rows="3"></textarea> <br>
+        <br>
+        <input type="text" placeholder="Data">
+        <br>
+        <input type="submit" name="Enviar" id="Enviar" value="Enviar">
+    </form>
+    
+</body>
+</html>
